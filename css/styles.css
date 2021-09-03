@@ -1,0 +1,22 @@
+body{
+    background-color: #D4ECDD;
+}
+
+h1{
+    color: #345B63;
+}
+
+h2{
+    color: #345B63;
+}
+
+hr{
+    border-style: dotted none none;
+    color: grey;
+    width: 5%;
+    border-width: 10px;
+}
+
+#circularPFP{
+    border-radius: 100%;
+}
