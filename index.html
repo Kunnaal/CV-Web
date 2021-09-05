@@ -1,88 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio | Kunnaal</title>
+    <title>Kunnaal</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Major+Mono+Display&family=Quicksand&family=Space+Mono&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/styles.css">
+    <link rel="icon" href="./images/favicon.ico">
 </head>
-
 <body>
 
-    <img id="circularPFP" src="https://media-exp1.licdn.com/dms/image/C5603AQHZ8QJq9k8y4w/profile-displayphoto-shrink_400_400/0/1604505755464?e=1635984000&v=beta&t=ZugDx3RmcYUImDUNEID9OErEb_WldbdabkTHVZVE7jc" width="175px" alt="My PFP">
-    <h1>Kunnaal</h1>
-    <p><em>I am a <strong>software programmer</strong> :)</em></p>
-    <p>I like sad billi &#128514;</p>
-    <hr>
+    <div class="top-container">
+        <img class="top-cloud" src="./images/cloud.png" alt="Cloud image">
+        <h1>
+            I'm Kunnaal
+        </h1>
+        <p class="intro-para">
+            a <span class="pro">Pro</span>grammer.
+        </p>
+        <img class="bottom-cloud" src="./images/cloud.png" alt="Cloud image">
+        <img src="./images/mountain.png" alt="Mountain image">
+    </div>
 
-    <h2>Education:</h2>
-    <ul>
-        <li>
-            10+2 from <strong>Kendriya Vidyalaya</strong>.
-        </li>
-        <li>
-            Current college student of <strong>GGSIPU</strong>.
-        </li>
-    </ul>
-    <hr>
-
-    <h2>Work Experience:</h2>
-    <table cellspacing = "10">
-        <!-- Header of Table, can be used as th or theader -->
-            <th>Date</th>
-            <th>Work</th>
-        <tbody>
-            <tr>
-                <td> 2018-2019 </td>
-                <td> Software Developer @ SNT </td>
-            </tr>
-            <tr>
-                <td> 2019 </td>
-                <td> CORE Member of ElectroTech </td>
-            </tr>
-        </tbody>
-    </table>
-    <hr>
-
-    <h2>Skills</h2>
-    <table cellspacing = "5">
-        <tbody>
-            <tr>
-                <td>Python</td>
-                <td>&#11088;&#11088;&#11088;&#11088;&#11088;</td>
-                <td>Automation (Python)</td>
-                <td>&#11088;&#11088;&#11088;&#11088;</td>
-            </tr>
-            <tr>
-                <td>C++</td>
-                <td>&#11088;&#11088;&#11088;&#11088;</td>
-                <td>ML (Python)</td>
-                <td>&#11088;&#11088;&#11088;</td>
-            </tr>
-            <tr>
-                <td>DSA</td>
-                <td>&#11088;&#11088;&#11088;&#11088;</td>
-                <td>HTML</td>
-                <td>&#11088;&#11088;&#11088;&#11088;</td>
-            </tr>
-        </tbody>
-    </table>
-    <hr>
-
-    <h2>Hobbies:</h2>
-    <ul>
-        <li>
-            Eating <em>Meetha</em>!.
-        </li>
-        <li>
-            Working on <em>microcontrollers</em> and <em>automation</em>.
-        </li>
-    </ul>
-
-    <a href="./contact.html" target="_blank">Contact me</a>
+    <div class="middle-container">
+        <div class="profile">
+          <img class="circularPic" src="https://media-exp1.licdn.com/dms/image/C5603AQHZ8QJq9k8y4w/profile-displayphoto-shrink_400_400/0/1604505755464?e=1635984000&v=beta&t=ZugDx3RmcYUImDUNEID9OErEb_WldbdabkTHVZVE7jc" alt="My PFP">
+          <h2>Hello.</h2>
+          <p class="intro"><em>I am a <strong>software programmer</strong> :)</em>
+            <br>
+            I like sad billi &#128514;</p>
+        </div>
+        <hr>
+        <div class="skills">
+          <h2>My Skills.</h2>
+          <div class="skill-row">
+            <img class="pygif" src="https://media4.giphy.com/media/LMt9638dO8dftAjtco/giphy.gif?cid=ecf05e47srn9m8dsgkwuk9kjhvcd2r6vb26vtcqzpbv2bx5y&rid=giphy.gif&ct=s" alt="Python Icon">
+            <h3 >Python</h3>
+            <p>Python is one of the main languages that I focus on, I believe I am good at it, but again, who would believe? 🤣</p>
+          </div>
+          <div class="skill-row">
+            <img class="gifs" src="https://media4.giphy.com/media/lRLzrbhmh5pFf4jOga/giphy.gif?cid=ecf05e47poz9c39b4n8wjf256uc6rc9552cbwydskqxaxb2k&rid=giphy.gif&ct=s" alt="Smashy penguin">
+            <h3>Machine Learing</h3>
+            <p>Though I am woking on my skills of this interest right now, I want to get better in this particular field!</p>
+          </div>
+        </div>
+        <hr>
+        <div class="contact-me">
+          <h2>Get In Touch</h2>
+          <h3>Wanna be as stupid as I am?</h3>
+          <p class="contact-message">Mail me and hope that I reply (which I will never probably).. See you someday &#128521;&#128521;</p>
+          <a class="btn" href="mailto:Kunnaal31@gmail.com">CONTACT ME</a>
+        </div>
+      </div>
+      
+      
+      <div class="bottom-container">
+        <a class="footer-link" href="https://www.linkedin.com/in/kunnaal-lakhera-b2a559159/">LinkedIn</a>
+        <a class="footer-link" href="https://github.com/Kunnaal">Github</a>
+        <a class="footer-link" href="https://kunnaal.github.io/CV-Web/">Website</a>
+        <p class="copyright">© 2021 Kunnaal</p>
+      </div>
+      
 
 </body>
-
 </html>
